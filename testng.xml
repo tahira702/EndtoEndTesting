@@ -1,18 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Main Test Suite" verbose="2">
- <test thread-count="5" name="Test">
+<parameter name = "url"  value= "https://www.facebook.com/"></parameter>
+ <test name="regressionsuite">
     <classes>
-     <class name="NewTest"/> 
-      <class name="SignIn"/>
-      <class name="Signup"/>
+     <class name="pages.Base"/>
+      <class name="pages.SignIn"/>
+      <class name="tests.Signintests"/>
+      <class name="pages.Homepage"/>
     </classes>
-  </test> <!-- Test -->
-  <test name="TestNG Test Group">
-        <classes>
-        <class name="com.test.TestA"/>
-        <class name="com.test.TestB"/>
-        </classes>
-    </test>
-</suite> <!-- Suite -->
+  </test> 
+  
+ </suite> 
 

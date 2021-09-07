@@ -1,6 +1,7 @@
+package pages;
 import org.testng.annotations.Test;
 
-public class NewTest {
+public class Homepage {
   @Test
   public void f() {
   }

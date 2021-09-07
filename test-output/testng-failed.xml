@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="SignIn">
+      <class name="pages.SignIn">
         <methods>
-          <include name="iframe"/>
+          <include name="verifySignInscreen"/>
         </methods>
-      </class> <!-- SignIn -->
+      </class> <!-- pages.SignIn -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
